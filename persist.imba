@@ -12,7 +12,6 @@ export def loadData
 			return []
 	else
 		return []
-export 
-		
+
 export def clearData
 	localStorage.removeItem(localStorageKey)
