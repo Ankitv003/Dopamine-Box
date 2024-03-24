@@ -2,7 +2,7 @@ import {icons} from "./icons.imba"
 
 tag habit-adder
 	
-	css section bgc:white rd:lg
+	css section bgc:pink1 rd:lg
 		$spacing:10px
 		ofx:scroll d:grid gtc:repeat(auto-fit, minmax(50px, 1fr))
 		grid-gap:$spacing p:$spacing

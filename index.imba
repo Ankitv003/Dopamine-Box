@@ -14,7 +14,7 @@ global css
 		$default-speed:350ms
 		$default-ease:ease
 		$default-tween:all $default-speed $default-ease
-	body bgc:#F9FAFC
+	body bgc:yellow2
 
 tag dopamine-box
 	prop habits = loadData()
@@ -57,11 +57,11 @@ tag dopamine-box
 		clearData()
 		habits = []
 	
-	css .container inset:0px d:vflex jc:center ai:stretch
-		.panel-area d:vflex ja:center flg:1 mt:0 mb:$panel-space pt:$panel-space
-			.controls mt:20px d:flex g:10px
+	css .container inset:0px d:vflex jc:center ai:stretch 
+		.panel-area d:vflex ja:center flg:1 mt:0 mb:$panel-space pt:$panel-space 
+			.controls mt:20px d:flex g:10px bgc:pink1
 				button bgc:transparent bgc@hover:skyblue c@hover:black fs:lg color:cooler4 cursor:pointer
-		.chooser-area tween:$default-tween h:0 pos:relative of:hidden 
+		.chooser-area tween:$default-tween h:0 pos:relative of:hidden  
 			&.on h:100%
 			.chooser display:hidden 
 			
